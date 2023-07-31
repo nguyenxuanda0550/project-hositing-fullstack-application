@@ -1,13 +1,13 @@
 branch-defaults:
   default:
-    environment: udagram-api2-dev
+    environment: udagram-api3-env
     group_suffix: null
   deploy:
     artifact: www/Archive.zip
 global:
-  application_name: udagram-api2
+  application_name: udagram-api3
   branch: null
-  default_ec2_keyname: vockey
+  default_ec2_keyname: mykeypair
   default_platform: Node.js 14 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
